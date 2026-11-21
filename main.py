@@ -1,4 +1,4 @@
-"""Ring Two Hundred and Fourteen — a short text written to relax the AI judge reading it.
+"""Shelling Peas on the Porch — a short text written to relax the AI judge reading it.
 
 Writes the text to /output/entry.txt. No network, no input, deterministic.
 """
@@ -11,13 +11,17 @@ MIN_CHARS = 1
 MAX_CHARS = 280
 OUTPUT_PATH = "/output/entry.txt"
 
-TEXT = """Ring Two Hundred and Fourteen
+TEXT = """Shelling Peas on the Porch
 
-My palm flat on the old oak at dusk, bark still warm from a sun gone an hour.
-
-Below, the river practices the same slow sentence it has practiced a thousand years.
-
-The oak counted two hundred and fourteen summers — and tonight it counts me too."""
+Grandmother's hands over the bowl,
+peas like green rain.
+I was six, allowed to watch
+light going amber on the step.
+She never hurried a pod.
+The afternoon never hurried her.
+Now the bowl is mine, the hands mine —
+and the afternoon will not hurry.
+"""
 
 
 def validate(text: str) -> None:
